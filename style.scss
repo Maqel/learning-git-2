@@ -1,0 +1,43 @@
+/*Font*/
+
+$font-text: 'Abril Fatface', cursiv;
+$font-header: 'Oswald', sans-serif;
+
+/*Variables*/
+$color-one: #0097e6;
+
+/*Global*/
+
+body {
+    background: #ecf0f1;
+}
+
+/*Header*/
+
+header {
+    font-family: $font-header;
+    text-align: center;
+}
+
+.page-title span {
+    color: $color-one;
+}
+
+/*Article*/
+
+.content {
+    font-family: $font-text;
+    margin: 50px;
+    padding: 50px;
+    font-size: 18px;
+}
+
+.content span {
+    color: $color-one;
+}
+
+.source {
+    font-size: 12px;
+    text-align: right;
+    margin-right: 50px;
+}
