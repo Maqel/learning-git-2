@@ -18,9 +18,11 @@ header {
 /*Article*/
 .content {
   font-family: "Abril Fatface", cursiv;
-  margin: 50px;
+  margin: 0 30% 0;
   padding: 50px;
   font-size: 18px;
+  justify-content: center;
+  text-align: center;
 }
 
 .content span {
@@ -30,5 +32,5 @@ header {
 .source {
   font-size: 12px;
   text-align: right;
-  margin-right: 50px;
+  margin-right: 10%;
 }
